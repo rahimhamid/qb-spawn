@@ -7,9 +7,9 @@
 .spawn-locations {
     text-transform: uppercase;
     position: absolute;
-    top: 10vh;
-    left: 10vh;
-    background-color: rgb(23 23 23 / 80%);
+    top: 19vh;
+    left: 70vh;
+    background-color: rgb(70 70 70 / 80%);
     border-radius: .8vh;
     padding: 30px;
 }
@@ -25,23 +25,23 @@
 
 .location > p {
     position: relative;
-    color: #ededed;
+    color: #df00ff;
     text-align: center;
     line-height: 4.5vh;
     font-size: 1.8vh;
 }
 
 .location:hover {
-    background-color: #dc143c;
+    background-color: #000000;
     transition: 0.2s;
 }
 
 .selected {
-    background-color: #dc143c;
+    background-color: #ce00ff;
 }
 
 .submit-spawn {
-    background-color: #28a745;
+    background-color: #000000;
     width: 28vh;
     height: 4.5vh;
     margin-bottom: .75vh;
@@ -51,7 +51,7 @@
 
 .submit-spawn > p {
     position: relative;
-    color: white;
+    color: #ff00f0;
     text-align: center;
     line-height: 4.5vh;
     font-size: 1.6vh;
@@ -65,7 +65,7 @@
 }
 
 #spawn-label {
-    color: #ededed;
+    color: #ff00f0;
     font-weight: bold;
 }
 
@@ -80,7 +80,7 @@
     letter-spacing: 1px;
     font-weight: bold;
     position: relative;
-    color: #ededed;
+    color: #9800ff;
     text-align: center;
     font-size: 1.5vh;
 }
